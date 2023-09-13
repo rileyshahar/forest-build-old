@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>367</anchor> <addr>riehl-2017</addr>  <route>riehl-2017.xml</route>  <authors><author>Emily Riehl</author> </authors> <title>Category theory in context</title> <meta name="isbn"/><meta name="bibtex">@book{riehl-2017,
+	title = &quot;Category theory in context&quot;,
+	author = &quot;Riehl, Emily&quot;,
+	publisher = &quot;Courier Dover Publications&quot;,
+	year = 2017,
+}</meta></frontmatter> <mainmatter><p>Suitable for advanced undergraduates and graduate students in mathematics,
+the text provides tools for understanding and attacking difficult problems in
+algebra, number theory, algebraic geometry, and algebraic topology. Drawing upon
+a broad range of mathematical examples from the categorical perspective, the
+author illustrates how the concepts and constructions of category theory arise
+from and illuminate more basic mathematical ideas. Prerequisites are limited to
+familiarity with some basic set theory and logic.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

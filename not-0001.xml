@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Notation"><frontmatter> <anchor>267</anchor> <addr>not-0001</addr>  <route>not-0001.xml</route> <date>August 14, 2023</date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Composition order</title> </frontmatter> <mainmatter>Morphism composition is more naturally expressed in left-to-right application
+order:
+</mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>245</anchor> <addr>kashiwara-schapira-2000</addr>  <route>kashiwara-schapira-2000.xml</route>  <authors><author>Masaki Kashiwara</author><author>Pierre Schapira</author> </authors> <title>Categories and sheaves</title> <meta name="isbn">3-540-27949-0</meta><meta name="bibtex">@book{kashiwara-schapira-2000,
+	title = &quot;Categories and Sheaves&quot;,
+	author = { &quot;Kashiwara, Masaki&quot;, &quot;Schapira, Pierre&quot; },
+	publisher = &quot;Springer&quot;,
+	year = 2000,
+}</meta></frontmatter> <mainmatter><p>Categories and sheaves, which emerged in the middle of the last century as an
+enrichment for the concepts of sets and functions, appear almost everywhere in
+mathematics nowadays.</p><p>This book covers categories, homological algebra and sheaves in a systematic
+and exhaustive manner starting from scratch, and continues with full proofs to
+an exposition of the most recent results in the literature, and sometimes
+beyond.</p><p>The authors present the general theory of categories and functors,
+emphasising inductive and projective limits, tensor categories, representable
+functors, ind-objects and localization. Then they study homological algebra
+including additive, abelian, triangulated categories and also unbounded derived
+categories using transfinite induction and accessible objects. Finally, sheaf
+theory as well as twisted sheaves and stacks appear in the framework of
+Grothendieck topologies.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

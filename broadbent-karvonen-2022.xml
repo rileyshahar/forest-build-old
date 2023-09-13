@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>227</anchor> <addr>broadbent-karvonen-2022</addr>  <route>broadbent-karvonen-2022.xml</route>  <authors><author>Anne Broadbent</author><author>Martii Karvonen</author> </authors> <title>Categorical composable cryptography</title> <meta name="isbn">978-3-030-99253-8</meta><meta name="bibtex">@incollection{broadbent-karvonen-2022,
+  AUTHOR = { &quot;Broadbent, Anne&quot;, &quot;Karvonen, Martti&quot; },
+  TITLE = &quot;Categorical composable cryptography&quot;,
+  BOOKTITLE = &quot;Foundations of software science and computation structures&quot;,
+  SERIES = &quot;Lecture Notes in Comput. Sci.&quot;,
+  VOLUME = 13242,
+  PAGES = 161--183,
+  PUBLISHER = &quot;Springer, Cham&quot;,
+  YEAR = 2022,
+  ISBN = 978-3-030-99253-8,
+  DOI = 10.1007/978-3-030-99253-8\_9,
+  URL = &quot;https://doi.org/10.1007/978-3-030-99253-8_9&quot;,
+}</meta></frontmatter> <mainmatter><p>We formalize the simulation paradigm of cryptography in terms of category
+theory and show that protocols secure against abstract attacks form a symmetric
+monoidal category, thus giving an abstract model of composable security
+definitions in cryptography. Our model is able to incorporate computational
+security, set-up assumptions and various attack models such as colluding or
+independently acting subsets of adversaries in a modular, flexible fashion. We
+conclude by using string diagrams to rederive the security of the one- time pad,
+correctness of Diffie-Hellman key exchange and no-go results concerning the
+limits of bipartite and tripartite cryptography, ruling out e.g., composable
+commitments and broadcasting. On the way, we exhibit two categorical
+constructions of resource theories that might be of independent interest: one
+capturing resources shared among multiple parties and one capturing resource
+conversions that succeed asymptotically.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>
