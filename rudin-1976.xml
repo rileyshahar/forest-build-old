@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>2637</anchor> <addr>rudin-1976</addr>  <route>rudin-1976.xml</route>  <authors><author>Walter Rudin</author> </authors> <title>Principles of mathematical analysis</title> <meta name="isbn">9781259064784</meta><meta name="edition">3</meta><meta name="bibtex">@book{rudin-1976,
+<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>2652</anchor> <addr>rudin-1976</addr>  <route>rudin-1976.xml</route>  <authors><author>Walter Rudin</author> </authors> <title>Principles of mathematical analysis</title> <meta name="isbn">9781259064784</meta><meta name="edition">3</meta><meta name="bibtex">@book{rudin-1976,
   title={Principles of Mathematical Analysis},
   author={Rudin, W.},
   isbn={9781259064784},

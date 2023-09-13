@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>249</anchor> <addr>katz-lindell-2014</addr>  <route>katz-lindell-2014.xml</route>  <authors><author>Jonathan Katz</author><author>Yehuda Lindell</author> </authors> <title>Introduction to modern cryptography</title> <meta name="isbn">9781466570269</meta><meta name="bibtex">@book{katz-lindell-2014,
+<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Reference"><frontmatter> <anchor>254</anchor> <addr>katz-lindell-2014</addr>  <route>katz-lindell-2014.xml</route>  <authors><author>Jonathan Katz</author><author>Yehuda Lindell</author> </authors> <title>Introduction to modern cryptography</title> <meta name="isbn">9781466570269</meta><meta name="bibtex">@book{katz-lindell-2014,
   title = &quot;Introduction to Modern Cryptography, Second Edition&quot;,
   author = { &quot;Katz, Jonathan.&quot;, &quot;Lindell, Yehuda&quot; },
   isbn = 9781466570269,
