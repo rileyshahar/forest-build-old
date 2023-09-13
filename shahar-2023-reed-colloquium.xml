@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>1327</anchor> <rss>shahar-2023-reed-colloquium.rss.xml</rss> <taxon>Talk</taxon> <addr>shahar-2023-reed-colloquium</addr>  <route>shahar-2023-reed-colloquium.xml</route> <date><year>2023</year> <month>9</month> <day>12</day></date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Categorical phase semantics for linear logic</title> <meta name="venue"><link href="https://www.reed.edu/computer-science/seminars/" type="external">Reed CS Colloquium</link></meta><meta name="tex">/slides/sources/shahar-2023-reed-colloquium.zip</meta><meta name="slides">/slides/shahar-2023-reed-colloquium.pdf</meta></frontmatter> <mainmatter><p>Linear logic is a logic of limited resources, useful in practice for writing
+safe programs. Girard's phase semantics, which may be instantiated with any
+(classical) monoid, are a canonical model of this logic. We give a categorical
+generalization of phase semantics to monoid objects in certain categories,
+filling an existing hole in the categorical semantics of linear logic. Along the
+way, we introduce and motivate the project of categorical semantics, assuming no
+knowledge of category theory or logic. This talk presents research with Steve
+Zdancewic at the UPenn PLClub group, supported by the REPL NSF REU site.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

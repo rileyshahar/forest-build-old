@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>395</anchor> <rss>rosulek-2021.rss.xml</rss> <taxon>Reference</taxon> <addr>rosulek-2021</addr>  <route>rosulek-2021.xml</route> <date><year>2023</year> <month>9</month> <day>13</day></date> <authors><author>Mike Rosulek</author> </authors> <title>The joy of cryptography</title> <meta name="isbn">9781466570269</meta><meta name="url">https://joyofcryptography.com</meta><meta name="bibtex"> @ebook{joyofcryptography,
+		title        = &quot;The Joy of Cryptography&quot;,
+		author       = &quot;Mike Rosulek&quot;,
+		note         = &quot;\url{https://joyofcryptography.com}&quot;,
+		url          = &quot;https://joyofcryptography.com&quot;
+}</meta></frontmatter> <mainmatter><p>The Joy of Cryptography is a free undergraduate-level textbook that
+introduces students to the fundamentals of provable security.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

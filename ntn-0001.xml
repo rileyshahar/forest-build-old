@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show_heading="true" show_metadata="true" toc="false" root="false" taxon="Notation"><frontmatter> <anchor>356</anchor> <addr>ntn-0001</addr>  <route>ntn-0001.xml</route> <date>August 14, 2023</date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Left-to-right composition</title> </frontmatter> <mainmatter><p>Morphism composition is more naturally expressed in left-to-right application
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>234</anchor> <rss>ntn-0001.rss.xml</rss> <taxon>Notation</taxon> <addr>ntn-0001</addr>  <route>ntn-0001.xml</route> <date><year>2023</year> <month>8</month> <day>14</day></date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Left-to-right composition</title> </frontmatter> <mainmatter><p>Morphism composition is more naturally expressed in left-to-right application
 order; this reflects diagrammatic and (for anglophones) linguistic convention.
 Since convention dictates that <tex>fg</tex> means <tex>g</tex> then <tex>f</tex>, we use <tex>f; g</tex> to
 mean <tex>f</tex> then <tex>g</tex>.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

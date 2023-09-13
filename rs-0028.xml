@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>1311</anchor> <rss>rs-0028.rss.xml</rss> <taxon>Definition</taxon> <addr>rs-0028</addr>  <route>rs-0028.xml</route> <date><year>2023</year> <month>9</month> <day>13</day></date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Symmetric-key encryption</title> </frontmatter> <mainmatter><p>A <em>symmetric-key encryption scheme</em> consists of:</p><ul>  <li>A randomized al</li></ul></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>
