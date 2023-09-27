@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="forest.xsl"?>
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>167</anchor> <rss>lindell-2021-simulation.rss.xml</rss> <taxon>Reference</taxon> <addr>lindell-2021-simulation</addr>  <route>lindell-2021-simulation.xml</route> <date><year>2021</year> <month>4</month> <day>25</day></date> <authors><author>Yehuda Lindell</author> </authors> <title>How To Simulate It – A Tutorial on the Simulation Proof Technique</title> <meta name="venue">Tutorials on the Foundations of Cryptography</meta><meta name="pdf">/papers/lindell-2021-simulation.pdf</meta><meta name="bibtex"> @inbook{lindell-2021,
+  author = &quot;Lindell, Yehuda&quot;,
+  title = &quot;How to Simulate It---A Tutorial on the Simulation Proof Technique&quot;,
+  booktitle = &quot;Tutorials on the Foundations of Cryptography: Dedicated to Oded Goldreich&quot;,
+  year = 2021,
+  publisher = &quot;Springer International Publishing&quot;,
+  pages = 277-346,
+  isbn = 978-3-319-57048-8,
+  doi = 10.1007/978-3-319-57048-8_6,
+}
+</meta></frontmatter> <mainmatter><p>One of the most fundamental notions of cryptography is that of simulation. It
+stands behind the concepts of semantic security, zero knowledge, and security
+for multiparty computation. However, writing a simulator and proving security
+via the use of simulation is a non-trivial task, and one that many newcomers to
+the field often find difficult. In this tutorial, we provide a guide to how to
+write simulators and prove security via the simulation paradigm. Although we
+have tried to make this tutorial as stand-alone as possible, we assume some
+familiarity with the notions of secure encryption, zero-knowledge, and secure
+computation.</p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

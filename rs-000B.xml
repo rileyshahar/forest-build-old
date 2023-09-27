@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>490</anchor> <rss>rs-000B.rss.xml</rss> <taxon>Definition</taxon> <addr>rs-000B</addr>  <route>rs-000B.xml</route> <date><year>2023</year> <month>7</month> <day>27</day></date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Retract</title> </frontmatter> <mainmatter><p>  Suppose <tex>x \xrightarrow{s} y \xrightarrow{r} x = 1_x</tex>.
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>558</anchor> <rss>rs-000B.rss.xml</rss> <taxon>Definition</taxon> <addr>rs-000B</addr>  <route>rs-000B.xml</route> <date><year>2023</year> <month>7</month> <day>27</day></date> <authors><author><link href="rileyshahar.xml" type="local">Riley Shahar</link></author> </authors> <title>Retract</title> </frontmatter> <mainmatter><p>  Suppose <tex>x \xrightarrow{s} y \xrightarrow{r} x = 1_x</tex>.
   Then <tex>s</tex> is a <em>section</em> or <em>pre-inverse</em> and <tex>r</tex> is a <em>retract</em> or
   <em>post-inverse</em>.
 </p></mainmatter> <backmatter><contributions/> <context/> <related/> <backlinks/> <references/></backmatter></tree>

@@ -182,7 +182,7 @@
             <xsl:value-of select="anchor" />
           </xsl:attribute>
           <span class="toc-item-label">
-            <xsl:apply-templates select="taxon" />
+            <xsl:apply-templates select="taxon" mode="header" />
             <xsl:apply-templates select="trail" />
             <xsl:if test="trail/crumb">
               <xsl:text>. </xsl:text>
@@ -207,25 +207,27 @@
   </xsl:template>
 
   <xsl:template match="authors">
-    <li class="meta-item">
-      <address class="author">
-        <xsl:for-each select="author">
-          <xsl:apply-templates />
-          <xsl:if test="position()!=last()">
-            <xsl:text>, </xsl:text>
-          </xsl:if>
-        </xsl:for-each>
-        <xsl:if test="contributor">
-          <xsl:text> with contributions from </xsl:text>
-          <xsl:for-each select="contributor">
-            <xsl:apply-templates />
-            <xsl:if test="position()!=last()">
-              <xsl:text>, </xsl:text>
-            </xsl:if>
-          </xsl:for-each>
-        </xsl:if>
-      </address>
-    </li>
+		<xsl:if test="./author[string()!='Riley Shahar'] or ../meta[@name='author']">
+			<li class="meta-item">
+				<address class="author">
+					<xsl:for-each select="author">
+							<xsl:apply-templates />
+							<xsl:if test="position()!=last()">
+								<xsl:text>, </xsl:text>
+							</xsl:if>
+					</xsl:for-each>
+					<xsl:if test="contributor">
+						<xsl:text> with contributions from </xsl:text>
+						<xsl:for-each select="contributor">
+							<xsl:apply-templates />
+							<xsl:if test="position()!=last()">
+								<xsl:text>, </xsl:text>
+							</xsl:if>
+						</xsl:for-each>
+					</xsl:if>
+				</address>
+			</li>
+		</xsl:if>
   </xsl:template>
 
   <xsl:template match="mainmatter">
@@ -286,31 +288,44 @@
     </li>
   </xsl:template>
 
-  <xsl:template match="meta[@name='slides']">
-    <li class="meta-item">
-      <a class="external" href="{.}">
-        <xsl:text>Slides</xsl:text>
-      </a>
-    </li>
+  <xsl:template match="meta[@name='ref-in']">
+		<xsl:variable name="at" select="../meta[@name='ref-at']"></xsl:variable>
+		<xsl:variable name="note" select="../meta[@name='ref-note']"></xsl:variable>
+		<span class="reference">
+      <a class="local" href="{$note}.xml">
+				<xsl:value-of select="." />
+      </a>,
+			<xsl:value-of select="$at" />
+		</span>
   </xsl:template>
 
-  <xsl:template match="meta[@name='pdf']">
-    <li class="meta-item">
-      <a class="external" href="{.}">
-        <xsl:text>PDF</xsl:text>
-      </a>
-    </li>
+  <xsl:template match="tree/frontmatter/taxon" mode="header">
+    <span class="taxon">
+      <xsl:value-of select="." />
+      <xsl:if test="not(../trail/crumb)">
+        <xsl:text>. </xsl:text>
+      </xsl:if>
+    </span>
   </xsl:template>
 
-  <xsl:template match="meta[@name='tex']">
-    <li class="meta-item">
-      <a class="external">
-        <xsl:attribute name="href">
-          <xsl:value-of select="." />
-        </xsl:attribute>
-        <xsl:text>TeX</xsl:text>
-      </a>
-    </li>
+  <xsl:template match="tree/frontmatter/taxon" mode="metadata">
+      <xsl:variable name="addr" select="/tree/frontmatter/addr" />
+      <xsl:if test="string() = 'Exposition' or string() = 'Publication'">
+        <li class="meta-item">
+          <a class="local" href="papers/{$addr}.pdf" >PDF</a>
+        </li>
+        <li class="meta-item">
+          <a class="local" href="papers/sources/{$addr}.zip" >TeX</a>
+        </li>
+      </xsl:if>
+      <xsl:if test="string() = 'Talk'">
+        <li class="meta-item">
+          <a class="local" href="slides/{$addr}.pdf" >Slides</a>
+        </li>
+        <li class="meta-item">
+          <a class="local" href="slides/sources/{$addr}.zip" >TeX</a>
+        </li>
+      </xsl:if>
   </xsl:template>
 
   <xsl:template match="meta[@name='video']">
@@ -319,15 +334,6 @@
         <xsl:text>Video</xsl:text>
       </a>
     </li>
-  </xsl:template>
-
-  <xsl:template match="tree/frontmatter/taxon">
-    <span class="taxon">
-      <xsl:value-of select="." />
-      <xsl:if test="not(../trail/crumb)">
-        <xsl:text>. </xsl:text>
-      </xsl:if>
-    </span>
   </xsl:template>
 
   <xsl:template match="trail">
@@ -349,7 +355,7 @@
   <xsl:template match="tree/frontmatter">
     <header>
       <h1>
-        <xsl:apply-templates select="taxon" />
+        <xsl:apply-templates select="taxon" mode="header" />
         <xsl:apply-templates select="trail" />
         <xsl:if test="trail/crumb">
           <xsl:text>. </xsl:text>
@@ -360,6 +366,7 @@
         <xsl:apply-templates select="addr" />
         <xsl:text> </xsl:text>
         <xsl:apply-templates select="source-path" />
+				<xsl:apply-templates select="meta[@name='ref-in']" />
       </h1>
       <div class="metadata">
         <ul>
@@ -374,6 +381,7 @@
           <xsl:apply-templates select="meta[@name='orcid']" />
           <xsl:apply-templates select="meta[@name='external']" />
           <xsl:apply-templates select="meta[@name='slides']" />
+          <xsl:apply-templates select="taxon" mode="metadata" />
           <xsl:apply-templates select="meta[@name='pdf']" />
 					<xsl:apply-templates select="meta[@name='tex']" />
           <xsl:apply-templates select="meta[@name='video']" />

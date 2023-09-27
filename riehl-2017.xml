@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="forest.xsl"?>
-<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>239</anchor> <rss>riehl-2017.rss.xml</rss> <taxon>Reference</taxon> <addr>riehl-2017</addr>  <route>riehl-2017.xml</route>  <authors><author>Emily Riehl</author> </authors> <title>Category theory in context</title> <meta name="isbn"/><meta name="bibtex">@book{riehl-2017,
+<tree expanded="true" show-heading="true" show-metadata="true" toc="false" root="false"><frontmatter> <anchor>195</anchor> <rss>riehl-2017.rss.xml</rss> <taxon>Reference</taxon> <addr>riehl-2017</addr>  <route>riehl-2017.xml</route>  <authors><author>Emily Riehl</author> </authors> <title>Category theory in context</title> <meta name="isbn"/><meta name="bibtex">@book{riehl-2017,
 	title = &quot;Category theory in context&quot;,
 	author = &quot;Riehl, Emily&quot;,
 	publisher = &quot;Courier Dover Publications&quot;,
